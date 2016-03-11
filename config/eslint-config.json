@@ -1,0 +1,31 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "ecmaFeatures": {
+    "arrowFunctions": true,
+    "blockBindings": true,
+    "experimentalObjectRestSpread": true,
+    "generators": true,
+    "jsx": true,
+    "module": true,
+    "modules": true,
+    "restParams": true,
+    "spread": true
+  },
+  "globals": {
+    "describe": true,
+    "it": true,
+    "before": true,
+    "after": true,
+    "beforeEach": true,
+    "afterEach": true,
+    "expect": true,
+    "should": true
+  }
+}

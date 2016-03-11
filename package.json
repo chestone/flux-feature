@@ -1,0 +1,66 @@
+{
+  "name": "flux-features",
+  "version": "1.0.0",
+  "description": "Provides a Feature Store",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "gulp test:integreation",
+    "postversion": "git push --tags && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HillaryClinton/flux-features.git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "bethcodes",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/HillaryClinton/flux-features/issues"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "homepage": "",
+  "devDependencies": {
+    "babel-core": "^6.3.17",
+    "babel-eslint": "^5.0.0",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-add-module-exports": "^0.1.1",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-stage-0": "^6.1.18",
+    "babel-register": "^6.3.13",
+    "chai": "^3.0.0",
+    "chai-as-promised": "^5.1.0",
+    "del": "^2.0.0",
+    "eslint": "^1.4.3",
+    "eslint-friendly-formatter": "^1.1.0",
+    "eslint-loader": "^1.0.0",
+    "eslint-plugin-react": "^3.2.3",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-uglify": "^1.5.3",
+    "karma": "^0.13.0",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-mocha": "^0.2.0",
+    "karma-sourcemap-loader": "^0.3.5",
+    "karma-spec-reporter": "0.0.23",
+    "karma-webpack": "^1.5.1",
+    "key-mirror": "^1.0.1",
+    "lodash": "^4.6.1",
+    "mocha": "^2.2.5",
+    "nuclear-js": "^1.1.1",
+    "source-map-support": "^0.4.0",
+    "uglify-loader": "^1.3.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-middleware": "^1.2.0",
+    "webpack-stream": "^3.1.0"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "key-mirror": "^1.0.1",
+    "lodash": "^4.6.1",
+    "nuclear-js": "^1.1.1"
+  }
+}
